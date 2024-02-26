@@ -4,11 +4,13 @@
 
 There are two way to create react application
 
-> Way 1
-> npm create-react-app firstReactApplication
-> Run solution on local to use - npm run start
+> [!IMPORTANT]
+> Way 1 <br/>
+> npm create-react-app firstReactApplication <br/>
+> Run solution on local to use - npm run start 
 
-> Way 2
-> npm create vite@latest
+> [!IMPORTANT]
+> Way 2 <br/>
+> npm create vite@latest <br/>
 > Run solution on local to use - npm run dev
 
