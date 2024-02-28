@@ -82,3 +82,20 @@ Fiber is designed to be more flexible, responsive, and extensible than the origi
 **In summary, Fiber is an updated and enhanced version of React's reconciliation algorithm introduced in React 16. While reconciliation remains a fundamental concept in React, Fiber represents a significant improvement that enables React to better manage rendering tasks, prioritize updates, and provide a more responsive and efficient user experience.**
 
 ---
+
+### What is useCallback ? 
+Ans - In React.js, the useCallback hook is used to memoize functions. This means it returns a memoized version of the callback function that only changes if one of the dependencies has changed. It's particularly useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary re-renders.
+
+Javascript must allocate memory for the function definition on every render and depending on how **useCallback** is implemented you may get more allocation of function definitions.
+
+**What is memoization ?**
+Ans - Memoization is an optimization technique that can be used to reduce time consuming calculations by saving previous input to something called cache and returning the result from it.
+
+**Note:** go through the passwordGenerator function to see the useCallback hook syntax with example.
+  
+---
+
+### How to import .js extension file in tsx file ?
+Ans -  **"allowJs": true** - Add this entity in tsconfig.json file under the compilerOptions object.
+
+---
